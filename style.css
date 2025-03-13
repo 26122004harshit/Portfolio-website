@@ -550,6 +550,216 @@ footer {
 }
 
 /* Mobile Responsiveness */
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .nav-links {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    gap: 2rem;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #head {
+    padding-left: 23rem;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+  }
+
+  #head1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: -13rem;
+  }
+
+  #head2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: -15rem;
+  }
+
+  #head3 {
+    padding-left: 50rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  #head4 {
+    font-size: 2.5rem;
+    margin-left: -35rem;
+  }
+
+  #head5 {
+    font-size: 2.5rem;
+    margin-left: -42rem;
+  }
+
+  #circle {
+    padding-top: 3rem;
+    width: 15rem;
+    height: 17rem;
+  }
+
+  #circle img {
+    width: 13.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+  }
+
+  /* Services Section */
+  .my-service {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-top: 18vh;
+    font-size: 1.4rem;
+    gap: 0.5rem;
+  }
+
+  #orange-line {
+    border: 0.3rem solid orange;
+    width: 17rem;
+    height: 0.3vh;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .three-cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: -10rem;
+  }
+
+  /* Why Hire Me Section */
+  .orange-box {
+    display: none;
+  }
+
+  .girl-img {
+    display: none;
+  }
+
+  .Why {
+    color: orange;
+  }
+
+  .girl-box {
+    display: flex;
+  }
+
+  .why-hire-me {
+    font-size: 2rem;
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 13rem;
+    margin-left: 3.5rem;
+  }
+
+  .why-para {
+    margin-top: 25rem;
+    padding-right: 0rem;
+    margin-left: -22rem;
+    font-size: 1rem;
+  }
+
+  /* Hire Me Button Styles */
+  .hire-me-button {
+    margin-left: 4rem;
+  }
+
+  /* Portfolio Section */
+  .portfolio-section {
+    font-size: 1.2rem;
+    margin-top: 10rem;
+    margin-left: 1rem;
+  }
+
+  .see-all-button {
+    margin-left: 19rem;
+    margin-top: 1rem;
+  }
+
+  .orange-marquee-line {
+    border: 3rem solid #FB6514;
+    width:30rem;
+    height: 1vh;
+    border-radius: 1rem;
+    transform: rotate(-5deg);
+    margin-top: 1.6rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+  }
+
+  .white-marquee-line {
+    border: 2rem solid white;
+    width: 30rem;
+    height: 1vh;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    margin-left: -3rem;
+    transform: rotate(0deg);
+    transform-origin: center;
+    text-align: center;
+    word-spacing: 0.5rem;
+  }
+
+  .orange-marquee-line2 {
+    border: 3rem solid #FB6514;
+    width: 30rem;
+    height: 1vh;
+    border-radius: 1rem;
+    margin-top: 4.6rem;
+    margin-left: 1rem;
+    transform: rotate(5.5deg);
+    transform-origin: center;
+    color: black;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+  }
+
+  .white-marquee-line2 {
+    border: 2rem solid white;
+    width: 30rem;
+    height: 1vh;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    margin-left: -3rem;
+    transform: rotate(0deg);
+    transform-origin: center;
+    text-align: center;
+    word-spacing: 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 500px) and (max-width: 599px) {
   .nav-links {
     flex-direction: column;
