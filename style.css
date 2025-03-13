@@ -690,7 +690,7 @@ footer {
 
   .orange-marquee-line {
     border: 3rem solid #FB6514;
-    width:20rem;
+    width:10rem;
     height: 1vh;
     border-radius: 1rem;
     transform: rotate(-5deg);
@@ -702,7 +702,7 @@ footer {
 
   .white-marquee-line {
     border: 2rem solid white;
-    width: 20rem;
+    width: 10rem;
     height: 1vh;
     border-radius: 1rem;
     margin-top: -2rem;
@@ -715,7 +715,7 @@ footer {
 
   .orange-marquee-line2 {
     border: 3rem solid #FB6514;
-    width: 20rem;
+    width: 10rem;
     height: 1vh;
     border-radius: 1rem;
     margin-top: 4.6rem;
@@ -732,7 +732,7 @@ footer {
 
   .white-marquee-line2 {
     border: 2rem solid white;
-    width: 20rem;
+    width: 10rem;
     height: 1vh;
     border-radius: 1rem;
     margin-top: -2rem;
